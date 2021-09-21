@@ -13,6 +13,7 @@ namespace Triangle.Tests
       TriangleChecker testTriangle = new TriangleChecker();
       Assert.AreEqual("Is an isosceles triangle", testTriangle.IsTriangle(5, 5, 7));
     }
+    
     [TestMethod]
     public void IsTriangle_DoesNotCreateATriangle_False()
     {
