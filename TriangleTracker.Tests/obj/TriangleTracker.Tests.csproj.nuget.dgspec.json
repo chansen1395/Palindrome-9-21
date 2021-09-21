@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar.Tests\\Calendar.Tests.csproj": {}
+    "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker.Tests\\TriangleTracker.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar.Tests\\Calendar.Tests.csproj": {
+    "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker.Tests\\TriangleTracker.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar.Tests\\Calendar.Tests.csproj",
-        "projectName": "Calendar.Tests",
-        "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar.Tests\\Calendar.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker.Tests\\TriangleTracker.Tests.csproj",
+        "projectName": "TriangleTracker.Tests",
+        "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker.Tests\\TriangleTracker.Tests.csproj",
         "packagesPath": "C:\\Users\\thesu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar.Tests\\obj\\",
+        "outputPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thesu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar\\Calendar.csproj": {
-                "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar\\Calendar.csproj"
+              "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker\\TriangleTracker.csproj": {
+                "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker\\TriangleTracker.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar\\Calendar.csproj": {
+    "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker\\TriangleTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar\\Calendar.csproj",
-        "projectName": "Calendar",
-        "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar\\Calendar.csproj",
+        "projectUniqueName": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker\\TriangleTracker.csproj",
+        "projectName": "TriangleTracker",
+        "projectPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker\\TriangleTracker.csproj",
         "packagesPath": "C:\\Users\\thesu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar\\obj\\",
+        "outputPath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thesu\\AppData\\Roaming\\NuGet\\NuGet.Config"

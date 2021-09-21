@@ -1,38 +1,25 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Calendar;
+using Triangle;
 
-namespace Calendar.Tests
+namespace Triangle.Tests
 {
   [TestClass]
-  public class LeapYearTests
+  public class TriangleTests
   {
 
     [TestMethod]
-    public void IsLeapYear_NumberDivisibleByFour_True()
+    public void IsTriangle_CreatesATriangle_True()
     {
-      LeapYear testLeapYear = new LeapYear();
-      Assert.AreEqual(true, testLeapYear.IsLeapYear(2012));
-    }
-
-    [TestMethod]
-    public void IsLeapYear_NumberNotDivisibleByFour_False()
-    {
-      LeapYear testLeapYear = new LeapYear();
-      Assert.AreEqual(false, testLeapYear.IsLeapYear(1999));
-    }
-
-    [TestMethod]
-    public void IsLeapYear_MultiplesOfOneHundred_False()
-    {
-      LeapYear testLeapYear = new LeapYear();
-      Assert.AreEqual(false, testLeapYear.IsLeapYear(1900));
-    }
-
-    [TestMethod]
-    public void IsLeapYear_MultiplesOfFourHundred_True()
-    {
-      LeapYear testLeapYear = new LeapYear();
-      Assert.AreEqual(true, testLeapYear.IsLeapYear(2000));
+      TriangleChecker testTriangle = new TriangleChecker();
+      Assert.AreEqual(true, testTriangle.IsTriangle(1, 1, 1));
     }
   }
 }
+
+//   test('should correctly create a triangle object with three lengths', () => {
+//     const triangle = new Triangle(2,4,5);
+//     expect(triangle.side1).toEqual(2);
+//     expect(triangle.side2).toEqual(4);
+//     expect(triangle.side3).toEqual(5);
+//   });
+// });

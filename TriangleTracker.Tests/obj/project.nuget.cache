@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QE+QxxsWQTNQRbY0pB4LPQGA9/bFKNSs5EZH224K/idHt/2iA0pKwYCij91ldipIc9ylVYcsiEfZk+zQLkec0Q==",
+  "dgSpecHash": "OkyEXEpbCChF8mxSt8VPqt1YK7vXrT7dllPrJVVO4eOAZvxPKlrcS2U0Rl33WYWFw/dEDh4H0B3rMJUmk6CX8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\Calendar.solution\\Calendar.Tests\\Calendar.Tests.csproj",
+  "projectFilePath": "C:\\Users\\thesu\\Desktop\\Epicodus\\CWEEK1\\TriangleTracker.solution\\TriangleTracker.Tests\\TriangleTracker.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thesu\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\thesu\\.nuget\\packages\\microsoft.net.test.sdk\\15.0.0\\microsoft.net.test.sdk.15.0.0.nupkg.sha512",
