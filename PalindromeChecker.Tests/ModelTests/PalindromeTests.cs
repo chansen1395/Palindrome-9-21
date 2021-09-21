@@ -27,5 +27,21 @@ namespace Palindrome.Tests
       PalindromeChecker testPalindrome = new PalindromeChecker();
       Assert.AreEqual(true, testPalindrome.IsPalindrome("racecaR"));
     }
+
+    [TestMethod]
+    public void IsPalindrome_PalindromeMultiWord_True()
+    {
+      PalindromeChecker testPalindrome = new PalindromeChecker();
+      Assert.AreEqual(true, testPalindrome.IsPalindrome("Hello olleH"));
+    }
+
+    [TestMethod]
+    public void IsPalindrome_PalindromeNumber_True()
+    {
+      PalindromeChecker testPalindrome = new PalindromeChecker();
+      // To put an integer into the palindrome checker, input would already be
+      // converted to a string before passing into IsPalindrome.
+      Assert.AreEqual(true, testPalindrome.IsPalindrome(121));
+    }
   }
 }
