@@ -7,17 +7,24 @@ namespace Triangle.Tests
   public class TriangleTests
   {
 
-    [TestMethod]
-    public void IsTriangle_CreatesATriangle_True()
-    {
-      TriangleChecker testTriangle = new TriangleChecker();
-      Assert.AreEqual(true, testTriangle.IsTriangle(2, 4, 5));
-    }
+    // [TestMethod]
+    // public void IsTriangle_CreatesATriangle_True()
+    // {
+    //   TriangleChecker testTriangle = new TriangleChecker();
+    //   Assert.AreEqual("Is a triangle", testTriangle.IsTriangle(1, 1, 1));
+    // }
     [TestMethod]
     public void IsTriangle_DoesNotCreateATriangle_False()
     {
       TriangleChecker testTriangle = new TriangleChecker();
-      Assert.AreEqual(false, testTriangle.IsTriangle(2, 8, 2));
+      Assert.AreEqual("Not a triangle", testTriangle.IsTriangle(2, 8, 2));
+    }
+
+    [TestMethod]
+    public void IsTriangle_ScaleneTriangle_True()
+    {
+      TriangleChecker testTriangle = new TriangleChecker();
+      Assert.AreEqual("Is a scalene triangle", testTriangle.IsTriangle(4, 5, 7));
     }
   }
 }
