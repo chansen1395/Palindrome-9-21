@@ -36,12 +36,24 @@ namespace Palindrome.Tests
     }
 
     [TestMethod]
+    public void IsPalindrome_PalindromeNumberString_True()
+    {
+      PalindromeChecker testPalindrome = new PalindromeChecker();
+      Assert.AreEqual(true, testPalindrome.IsPalindrome("ah121ha"));
+    }
+
+    [TestMethod]
     public void IsPalindrome_PalindromeNumber_True()
     {
       PalindromeChecker testPalindrome = new PalindromeChecker();
-      // To put an integer into the palindrome checker, input would already be
-      // converted to a string before passing into IsPalindrome.
       Assert.AreEqual(true, testPalindrome.IsPalindrome(121));
+    }
+
+    [TestMethod]
+    public void IsPalindrome_PalindromeSymbols_True()
+    {
+      PalindromeChecker testPalindrome = new PalindromeChecker();
+      Assert.AreEqual(true, testPalindrome.IsPalindrome(",!,"));
     }
   }
 }
