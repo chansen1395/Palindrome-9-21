@@ -13,7 +13,7 @@ namespace Triangle.Tests
       TriangleChecker testTriangle = new TriangleChecker();
       Assert.AreEqual("Is an isosceles triangle", testTriangle.IsTriangle(5, 5, 7));
     }
-    
+
     [TestMethod]
     public void IsTriangle_DoesNotCreateATriangle_False()
     {
@@ -36,11 +36,3 @@ namespace Triangle.Tests
     }
   }
 }
-
-//   test('should correctly create a triangle object with three lengths', () => {
-//     const triangle = new Triangle(2,4,5);
-//     expect(triangle.side1).toEqual(2);
-//     expect(triangle.side2).toEqual(4);
-//     expect(triangle.side3).toEqual(5);
-//   });
-// });
