@@ -11,7 +11,13 @@ namespace Triangle.Tests
     public void IsTriangle_CreatesATriangle_True()
     {
       TriangleChecker testTriangle = new TriangleChecker();
-      Assert.AreEqual(true, testTriangle.IsTriangle(1, 1, 1));
+      Assert.AreEqual(true, testTriangle.IsTriangle(2, 4, 5));
+    }
+    [TestMethod]
+    public void IsTriangle_DoesNotCreateATriangle_False()
+    {
+      TriangleChecker testTriangle = new TriangleChecker();
+      Assert.AreEqual(false, testTriangle.IsTriangle(2, 8, 2));
     }
   }
 }
